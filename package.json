@@ -1,19 +1,6 @@
 {
-  "name": "leado",
-  "version": "1.0.0",
-  "description": "Node backend",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js.js"
-  },
   "dependencies": {
     "express": "^5.2.1",
-    "multer": "^2.1.1",
     "nodemailer": "^8.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hibuzin/leado_backend.git"
-  },
-  "license": "ISC"
+  }
 }
