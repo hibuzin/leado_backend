@@ -1,29 +1,19 @@
 {
+  "name": "leado",
+  "version": "1.0.0",
+  "description": "Node backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js.js"
+  },
   "dependencies": {
     "express": "^5.2.1",
     "multer": "^2.1.1",
     "nodemailer": "^8.0.2"
   },
-  "name": "leado",
-  "version": "1.0.0",
-  "description": "A new Flutter project.",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hibuzin/leado_backend.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hibuzin/leado_backend/issues"
-  },
-  "homepage": "https://github.com/hibuzin/leado_backend#readme"
+  "license": "ISC"
 }
