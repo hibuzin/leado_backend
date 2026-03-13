@@ -12,11 +12,7 @@ async function sendEmail(to, subject, text) {
 
     await transporter.sendMail({
         from: "a54527177@gmail.com",
-        to: [
-            "a54527177@gmail.com",
-            "arshabinhami@gmail.com",
-            "asgar81244@gmail.com"
-        ],
+        to: to,
         subject: subject,
         text: text
     });
